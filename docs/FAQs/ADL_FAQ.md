@@ -59,11 +59,11 @@ These Editions are NOT supported
 
 ### W: Why the "Data Lake" menu does not show in Visual Studio even whenIi installed the ADL tool for VS?
 
-We have changed the Data Lake Tools for Visual Studio plugin release cycle and now it is released with Azure SDK (from 2.9 on). Since Azure SDK has a large installation base, in order not to disturb users who don't use Data Lake service, we now hide the Data Lake menu. You can "activite" the menu by creating a Data Lake project, or open Server Explorer, etc.
+We have changed the Data Lake Tools for Visual Studio plugin release cycle and now it is released with Azure SDK (from 2.9 on). Since Azure SDK has a large installation base, in order not to disturb users who don't use Data Lake service, we now hide the Data Lake menu. You can "activate" the menu by creating a Data Lake project, or open Server Explorer, etc.
 
 ### Q: Does ADL Support Parquet Files?
 
-* **ADL Store**: You can move Parquet files into ADL Store from a source HDFS system. (You don't need to worry about any block size fdifferences)
-* **HDInsifght**: An HDInsight cluster can read Parquet files stored in ADL Store.
-* **ADL Analytics**: ADL Analytics support for Parquet files is currently under investigation and is something on our roadmap
+* **ADL Store**: You can move Parquet files into ADL Store from a source HDFS system. (You don't need to worry about any block size differences)
+* **HDInsight**: An HDInsight cluster can read Parquet files stored in ADL Store.
+* **ADL Analytics**: ADL Analytics support for Parquet files is currently under investigation and is something on our roadmap.
 
